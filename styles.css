@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: 1920px;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.autorization{
+    width: 400px;
+    height: 250px;
+    box-shadow: 1px 2px 3px black;
+    margin-top: 17%;
+    margin-left: 40%;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    border-radius: 5px;
+}
+.logo-class{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: -10px;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+.input-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-class form input{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 350px;
+    height: 30px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border: none;
+    box-shadow: 1px 2px 5px black;
+    transition: 0.3s ease-in-out;
+}
+.input-class form input:hover{
+    background-color: rgb(231, 206, 255);
+}
+.input-class form input:focus{
+    outline: 0;
+    background-color: rgb(231, 206, 255);
+}
+.input-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-button input{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(198, 136, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.input-button input:hover{
+    background-color: rgba(28,28,28,0);
+    border: 1px solid rgb(198, 136, 255);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 5px rgb(198, 136, 255);
+    font-size: 14px;
+}
+.fargot-password{
+    text-align: center;
+    margin-top: 17px;
+    font-size: 15px;
+}
+.fargot-password a{
+    color: rgb(196, 196, 196);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+.fargot-password a:hover{
+    color: white;
+    font-size: 16px; 
+}
